@@ -1,0 +1,21 @@
+{
+    "name": "ddfpig/phphelper",
+    "description": "php Development Assistant for fucntions",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ddfpig",
+            "email": "ddf-128@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "tools\\": "src/"
+        }
+    }
+}
